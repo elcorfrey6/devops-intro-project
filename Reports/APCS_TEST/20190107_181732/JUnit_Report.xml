@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="APCS_TEST" time="152" tests="2" failures="0" errors="0">
+   <testsuite name="APCS_TEST" tests="2" failures="0" errors="0" time="152" timestamp="2019-01-07 18:17:36" hostname="fgl8tbp - WKSP000926FD.us.ups.com" id="Test Suites/APCS_TEST">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_181732"/>
+         <property name="logFiles" value="C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_181732\\execution0.log, C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_181732\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fgl8tbp - WKSP000926FD.us.ups.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="10.246.106.118"/>
+         <property name="sessionId" value="71887c67-c1b2-459d-a70e-266e07c91eda"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/APCS" classname="Test Cases/APCS" status="PASSED">
+         <system-out><![CDATA[2019-01-07 18:17:36 - [TEST_CASE][PASSED] - Test Cases/APCS: Test Cases/APCS
+
+2019-01-07 18:17:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-07 18:17:38 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2019-01-07 18:17:38 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-07 18:17:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-07 18:17:45 - [TEST_STEP][PASSED] - navigateToUrl("https://apcs.ams1907.com/apcs/registration.do"): Navigate to 'https://apcs.ams1907.com/apcs/registration.do' successfully
+
+2019-01-07 18:17:47 - [MESSAGE][PASSED] - Navigate to 'https://apcs.ams1907.com/apcs/registration.do' successfully
+
+2019-01-07 18:17:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Enterprise Access Management/input_User ID_user"), "fgl8tbp"): Text 'fgl8tbp' is set on object 'Object Repository/Page_Enterprise Access Management/input_User ID_user'
+
+2019-01-07 18:17:49 - [MESSAGE][PASSED] - Text 'fgl8tbp' is set on object 'Object Repository/Page_Enterprise Access Management/input_User ID_user'
+
+2019-01-07 18:17:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Enterprise Access Management/input_Password_password"), "oAR5EV3bLF6Zw+XSIEVvwg=="): Text ****** has been set on object 'Object Repository/Page_Enterprise Access Management/input_Password_password'
+
+2019-01-07 18:17:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Enterprise Access Management/input_Password_password'
+
+2019-01-07 18:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Enterprise Access Management/input_Password_sbtn")): Object: 'Object Repository/Page_Enterprise Access Management/input_Password_sbtn' is clicked on
+
+2019-01-07 18:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Enterprise Access Management/input_Password_sbtn' is clicked on
+
+2019-01-07 18:17:55 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Register Now"), STOP_ON_FAILURE): Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is focused
+
+2019-01-07 18:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is focused
+
+2019-01-07 18:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_APCS ApplicationUPS/a_Register Now")): Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is clicked on
+
+2019-01-07 18:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is clicked on
+
+2019-01-07 18:17:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_APCS ApplicationUPS/input__shopName"), 0): Object 'Object Repository/Page_APCS ApplicationUPS/input__shopName' is present
+
+2019-01-07 18:17:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-07 18:18:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_APCS ApplicationUPS/input__shopName' is present
+
+2019-01-07 18:18:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__shopName"), "Eliana Shop"): Text 'Eliana Shop' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__shopName'
+
+2019-01-07 18:18:38 - [MESSAGE][PASSED] - Text 'Eliana Shop' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__shopName'
+
+2019-01-07 18:18:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber"), "21 "): Text '21 ' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber'
+
+2019-01-07 18:18:39 - [MESSAGE][PASSED] - Text '21 ' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber'
+
+2019-01-07 18:18:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.streetName"), "Henrietta ST"): Text 'Henrietta ST' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetName'
+
+2019-01-07 18:18:40 - [MESSAGE][PASSED] - Text 'Henrietta ST' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetName'
+
+2019-01-07 18:18:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode"), "07026"): Text '07026' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode'
+
+2019-01-07 18:18:41 - [MESSAGE][PASSED] - Text '07026' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode'
+
+2019-01-07 18:18:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.city"), "Garfield"): Text 'Garfield' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.city'
+
+2019-01-07 18:18:41 - [MESSAGE][PASSED] - Text 'Garfield' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.city'
+
+2019-01-07 18:18:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska"), "_NJ", true): All options with value '_NJ' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska'  using regular expression
+
+2019-01-07 18:18:52 - [MESSAGE][PASSED] - All options with value '_NJ' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska'  using regular expression
+
+2019-01-07 18:18:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa"), "511", true): All options with value '511' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 18:18:58 - [MESSAGE][PASSED] - All options with value '511' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 18:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1")): Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 18:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 18:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__btnokClose1")): Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnokClose1' is clicked on
+
+2019-01-07 18:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnokClose1' is clicked on
+
+2019-01-07 18:19:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1")): Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 18:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 18:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName"), "Eliana"): Text 'Eliana' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName'
+
+2019-01-07 18:19:02 - [MESSAGE][PASSED] - Text 'Eliana' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName'
+
+2019-01-07 18:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName"), "Cordova"): Text 'Cordova' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName'
+
+2019-01-07 18:19:03 - [MESSAGE][PASSED] - Text 'Cordova' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName'
+
+2019-01-07 18:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.phone"), "2018978898"): Text '2018978898' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.phone'
+
+2019-01-07 18:19:04 - [MESSAGE][PASSED] - Text '2018978898' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.phone'
+
+2019-01-07 18:19:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.email"), "ecordova@ups.com"): Text 'ecordova@ups.com' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.email'
+
+2019-01-07 18:19:05 - [MESSAGE][PASSED] - Text 'ecordova@ups.com' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.email'
+
+2019-01-07 18:19:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2")): Object: 'Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2' is clicked on
+
+2019-01-07 18:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2' is clicked on
+
+2019-01-07 18:19:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton")): Object: 'Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton' is clicked on
+
+2019-01-07 18:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton' is clicked on
+
+2019-01-07 18:19:11 - [TEST_STEP][PASSED] - focus(findTestObject("Page_APCS ApplicationUPS/span_Cordova Elvis")): Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is focused
+
+2019-01-07 18:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is focused
+
+2019-01-07 18:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis")): Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is clicked on
+
+2019-01-07 18:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is clicked on
+
+2019-01-07 18:19:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Log out")): Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible
+
+2019-01-07 18:19:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible
+
+2019-01-07 18:19:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Log out"), 1): Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is present
+
+2019-01-07 18:19:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is present
+
+2019-01-07 18:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Log out")): Object: 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is clicked on
+
+2019-01-07 18:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is clicked on
+
+2019-01-07 18:19:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-07 18:19:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APCS" classname="Test Cases/APCS" status="PASSED">
+         <system-out><![CDATA[2019-01-07 18:19:17 - [TEST_CASE][PASSED] - Test Cases/APCS: Test Cases/APCS
+
+2019-01-07 18:19:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-07 18:19:17 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2019-01-07 18:19:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-07 18:19:19 - [TEST_STEP][PASSED] - navigateToUrl("https://apcs.ams1907.com/apcs/registration.do"): Navigate to 'https://apcs.ams1907.com/apcs/registration.do' successfully
+
+2019-01-07 18:19:20 - [MESSAGE][PASSED] - Navigate to 'https://apcs.ams1907.com/apcs/registration.do' successfully
+
+2019-01-07 18:19:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Enterprise Access Management/input_User ID_user"), "fgl8tbp"): Text 'fgl8tbp' is set on object 'Object Repository/Page_Enterprise Access Management/input_User ID_user'
+
+2019-01-07 18:19:21 - [MESSAGE][PASSED] - Text 'fgl8tbp' is set on object 'Object Repository/Page_Enterprise Access Management/input_User ID_user'
+
+2019-01-07 18:19:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Enterprise Access Management/input_Password_password"), "oAR5EV3bLF6Zw+XSIEVvwg=="): Text ****** has been set on object 'Object Repository/Page_Enterprise Access Management/input_Password_password'
+
+2019-01-07 18:19:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Enterprise Access Management/input_Password_password'
+
+2019-01-07 18:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Enterprise Access Management/input_Password_sbtn")): Object: 'Object Repository/Page_Enterprise Access Management/input_Password_sbtn' is clicked on
+
+2019-01-07 18:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Enterprise Access Management/input_Password_sbtn' is clicked on
+
+2019-01-07 18:19:25 - [TEST_STEP][PASSED] - focus(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Register Now"), STOP_ON_FAILURE): Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is focused
+
+2019-01-07 18:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is focused
+
+2019-01-07 18:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_APCS ApplicationUPS/a_Register Now")): Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is clicked on
+
+2019-01-07 18:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is clicked on
+
+2019-01-07 18:19:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_APCS ApplicationUPS/input__shopName"), 0): Object 'Object Repository/Page_APCS ApplicationUPS/input__shopName' is present
+
+2019-01-07 18:19:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-07 18:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_APCS ApplicationUPS/input__shopName' is present
+
+2019-01-07 18:19:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__shopName"), "Eliana Shop"): Text 'Eliana Shop' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__shopName'
+
+2019-01-07 18:19:29 - [MESSAGE][PASSED] - Text 'Eliana Shop' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__shopName'
+
+2019-01-07 18:19:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber"), "21 "): Text '21 ' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber'
+
+2019-01-07 18:19:30 - [MESSAGE][PASSED] - Text '21 ' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber'
+
+2019-01-07 18:19:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.streetName"), "Henrietta ST"): Text 'Henrietta ST' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetName'
+
+2019-01-07 18:19:31 - [MESSAGE][PASSED] - Text 'Henrietta ST' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetName'
+
+2019-01-07 18:19:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode"), "07026"): Text '07026' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode'
+
+2019-01-07 18:19:32 - [MESSAGE][PASSED] - Text '07026' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode'
+
+2019-01-07 18:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.city"), "Garfield"): Text 'Garfield' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.city'
+
+2019-01-07 18:19:33 - [MESSAGE][PASSED] - Text 'Garfield' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.city'
+
+2019-01-07 18:19:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska"), "_NJ", true): All options with value '_NJ' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska'  using regular expression
+
+2019-01-07 18:19:44 - [MESSAGE][PASSED] - All options with value '_NJ' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska'  using regular expression
+
+2019-01-07 18:19:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa"), "511", true): All options with value '511' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 18:19:50 - [MESSAGE][PASSED] - All options with value '511' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 18:19:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1")): Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 18:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 18:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__btnokClose1")): Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnokClose1' is clicked on
+
+2019-01-07 18:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnokClose1' is clicked on
+
+2019-01-07 18:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1")): Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 18:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 18:19:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName"), "Eliana"): Text 'Eliana' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName'
+
+2019-01-07 18:19:54 - [MESSAGE][PASSED] - Text 'Eliana' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName'
+
+2019-01-07 18:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName"), "Cordova"): Text 'Cordova' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName'
+
+2019-01-07 18:19:55 - [MESSAGE][PASSED] - Text 'Cordova' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName'
+
+2019-01-07 18:19:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.phone"), "2018978898"): Text '2018978898' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.phone'
+
+2019-01-07 18:19:56 - [MESSAGE][PASSED] - Text '2018978898' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.phone'
+
+2019-01-07 18:19:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.email"), "ecordova@ups.com"): Text 'ecordova@ups.com' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.email'
+
+2019-01-07 18:19:57 - [MESSAGE][PASSED] - Text 'ecordova@ups.com' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.email'
+
+2019-01-07 18:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2")): Object: 'Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2' is clicked on
+
+2019-01-07 18:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2' is clicked on
+
+2019-01-07 18:19:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton")): Object: 'Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton' is clicked on
+
+2019-01-07 18:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton' is clicked on
+
+2019-01-07 18:20:04 - [TEST_STEP][PASSED] - focus(findTestObject("Page_APCS ApplicationUPS/span_Cordova Elvis")): Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is focused
+
+2019-01-07 18:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is focused
+
+2019-01-07 18:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis")): Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is clicked on
+
+2019-01-07 18:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is clicked on
+
+2019-01-07 18:20:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Log out")): Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible
+
+2019-01-07 18:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible
+
+2019-01-07 18:20:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Log out"), 1): Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is present
+
+2019-01-07 18:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is present
+
+2019-01-07 18:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Log out")): Object: 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is clicked on
+
+2019-01-07 18:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is clicked on
+
+2019-01-07 18:20:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-07 18:20:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-07 18:17:36 - [TEST_SUITE][PASSED] - APCS_TEST: Test Cases/APCS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

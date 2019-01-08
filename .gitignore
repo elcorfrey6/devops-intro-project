@@ -1,4 +1,13 @@
+<<<<<<< HEAD
+
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+=======
 .DS_Store
 packer_cache
 packer-templates/virtualbox/
 devops-kungfu/
+>>>>>>> branch 'master' of https://github.com/elcorfrey6/devops-intro-project.git

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="APCS_TEST" time="72" tests="0" failures="1" errors="0">
+   <testsuite name="APCS_TEST" tests="0" failures="1" errors="0" time="72" timestamp="2019-01-07 17:01:01" hostname="fgl8tbp - WKSP000926FD.us.ups.com" id="Test Suites/APCS_TEST">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_170057"/>
+         <property name="logFiles" value="C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_170057\\execution0.log, C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_170057\\IEDriverServer.log"/>
+         <property name="attachments" value="C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_170057\\1546898532816.png, C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_170057\\1546898532909.png"/>
+         <property name="hostName" value="fgl8tbp - WKSP000926FD.us.ups.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="10.246.106.118"/>
+         <property name="sessionId" value="ce856fb4-937c-405c-825d-2e476997efbe"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/APCS" classname="Test Cases/APCS" status="FAILED">
+         <failure type="FAILED" message="Test Cases/APCS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at APCS.run(APCS:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546898457830.run(TempTestSuite1546898457830.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-07 17:01:01 - [TEST_CASE][FAILED] - Test Cases/APCS: Test Cases/APCS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at APCS.run(APCS:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546898457830.run(TempTestSuite1546898457830.groovy:36)
+
+
+2019-01-07 17:01:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-07 17:01:03 - [MESSAGE][INFO] - Starting 'IE' driver
+
+2019-01-07 17:01:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-07 17:01:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-07 17:01:08 - [TEST_STEP][PASSED] - navigateToUrl("https://apcs.ams1907.com/apcs/registration.do"): Navigate to 'https://apcs.ams1907.com/apcs/registration.do' successfully
+
+2019-01-07 17:01:09 - [MESSAGE][PASSED] - Navigate to 'https://apcs.ams1907.com/apcs/registration.do' successfully
+
+2019-01-07 17:01:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Enterprise Access Management/input_User ID_user"), "fgl8tbp"): Text 'fgl8tbp' is set on object 'Object Repository/Page_Enterprise Access Management/input_User ID_user'
+
+2019-01-07 17:01:09 - [MESSAGE][PASSED] - Text 'fgl8tbp' is set on object 'Object Repository/Page_Enterprise Access Management/input_User ID_user'
+
+2019-01-07 17:01:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Enterprise Access Management/input_Password_password"), "oAR5EV3bLF6Zw+XSIEVvwg=="): Text ****** has been set on object 'Object Repository/Page_Enterprise Access Management/input_Password_password'
+
+2019-01-07 17:01:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Enterprise Access Management/input_Password_password'
+
+2019-01-07 17:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Enterprise Access Management/input_Password_sbtn")): Object: 'Object Repository/Page_Enterprise Access Management/input_Password_sbtn' is clicked on
+
+2019-01-07 17:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Enterprise Access Management/input_Password_sbtn' is clicked on
+
+2019-01-07 17:01:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Register Now"), 3, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is present
+
+2019-01-07 17:01:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is present
+
+2019-01-07 17:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/a_Register Now"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is clicked on
+
+2019-01-07 17:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/a_Register Now' is clicked on
+
+2019-01-07 17:01:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__shopName"), "ELiana Shop"): Text 'ELiana Shop' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__shopName'
+
+2019-01-07 17:01:23 - [MESSAGE][PASSED] - Text 'ELiana Shop' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__shopName'
+
+2019-01-07 17:01:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber"), "21 "): Text '21 ' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber'
+
+2019-01-07 17:01:24 - [MESSAGE][PASSED] - Text '21 ' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber'
+
+2019-01-07 17:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.streetName"), "Henrietta ST"): Text 'Henrietta ST' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetName'
+
+2019-01-07 17:01:25 - [MESSAGE][PASSED] - Text 'Henrietta ST' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.streetName'
+
+2019-01-07 17:01:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode"), "07026"): Text '07026' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode'
+
+2019-01-07 17:01:25 - [MESSAGE][PASSED] - Text '07026' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode'
+
+2019-01-07 17:01:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__address0.city"), "Garfield"): Text 'Garfield' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.city'
+
+2019-01-07 17:01:26 - [MESSAGE][PASSED] - Text 'Garfield' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__address0.city'
+
+2019-01-07 17:01:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska"), "_NJ", true): All options with value '_NJ' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska'  using regular expression
+
+2019-01-07 17:01:36 - [MESSAGE][PASSED] - All options with value '_NJ' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska'  using regular expression
+
+2019-01-07 17:01:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa"), "511", true): All options with value '511' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 17:01:42 - [MESSAGE][PASSED] - All options with value '511' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 17:01:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa"), "511", true): All options with value '511' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 17:01:46 - [MESSAGE][PASSED] - All options with value '511' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 17:01:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa"), "512", true): All options with value '512' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 17:01:50 - [MESSAGE][PASSED] - All options with value '512' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 17:01:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa"), "016", true): All options with value '016' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 17:01:55 - [MESSAGE][PASSED] - All options with value '016' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa'  using regular expression
+
+2019-01-07 17:01:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_APCS ApplicationUPS/select_- Select -PartnerAcquai"), "02", true): All options with value '02' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -PartnerAcquai'  using regular expression
+
+2019-01-07 17:01:57 - [MESSAGE][PASSED] - All options with value '02' are selected in object 'Object Repository/Page_APCS ApplicationUPS/select_- Select -PartnerAcquai'  using regular expression
+
+2019-01-07 17:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1")): Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 17:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 17:01:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__btnokClose1")): Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnokClose1' is clicked on
+
+2019-01-07 17:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnokClose1' is clicked on
+
+2019-01-07 17:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1")): Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 17:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1' is clicked on
+
+2019-01-07 17:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName"), "Eliana"): Text 'Eliana' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName'
+
+2019-01-07 17:02:01 - [MESSAGE][PASSED] - Text 'Eliana' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName'
+
+2019-01-07 17:02:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName"), "Cordova"): Text 'Cordova' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName'
+
+2019-01-07 17:02:02 - [MESSAGE][PASSED] - Text 'Cordova' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName'
+
+2019-01-07 17:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.phone"), "2018978898"): Text '2018978898' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.phone'
+
+2019-01-07 17:02:03 - [MESSAGE][PASSED] - Text '2018978898' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.phone'
+
+2019-01-07 17:02:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_APCS ApplicationUPS/input__contact0.email"), "ecordova@ups.com"): Text 'ecordova@ups.com' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.email'
+
+2019-01-07 17:02:04 - [MESSAGE][PASSED] - Text 'ecordova@ups.com' is set on object 'Object Repository/Page_APCS ApplicationUPS/input__contact0.email'
+
+2019-01-07 17:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2")): Object: 'Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2' is clicked on
+
+2019-01-07 17:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2' is clicked on
+
+2019-01-07 17:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton")): Object: 'Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton' is clicked on
+
+2019-01-07 17:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton' is clicked on
+
+2019-01-07 17:02:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis")): Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is clicked on
+
+2019-01-07 17:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis' is clicked on
+
+2019-01-07 17:02:12 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Page_APCS ApplicationUPS/a_Log out")): verifyElementVisible(findTestObject("Page_APCS ApplicationUPS/a_Log out")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at APCS.run(APCS:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546898457830.run(TempTestSuite1546898457830.groovy:36)
+
+
+2019-01-07 17:02:12 - [MESSAGE][FAILED] - Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is NOT visible
+[[ATTACHMENT|C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_170057\\1546898532816.png]]
+
+2019-01-07 17:02:12 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is NOT visible)
+[[ATTACHMENT|C:\\Users\\fgl8tbp\\Katalon Studio\\scenario\\Reports\\APCS_TEST\\20190107_170057\\1546898532909.png]]
+
+2019-01-07 17:02:12 - [MESSAGE][FAILED] - verifyElementVisible(findTestObject("Page_APCS ApplicationUPS/a_Log out")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at APCS.run(APCS:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546898457830.run(TempTestSuite1546898457830.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-07 17:01:01 - [TEST_CASE][FAILED] - Test Cases/APCS: Test Cases/APCS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at APCS.run(APCS:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546898457830.run(TempTestSuite1546898457830.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-07 17:01:01 - [TEST_SUITE][FAILED] - APCS_TEST: Test Cases/APCS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at APCS.run(APCS:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546898457830.run(TempTestSuite1546898457830.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-07 17:01:01 - [TEST_SUITE][FAILED] - APCS_TEST: Test Cases/APCS FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_APCS ApplicationUPS/a_Log out' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at APCS.run(APCS:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546898457830.run(TempTestSuite1546898457830.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

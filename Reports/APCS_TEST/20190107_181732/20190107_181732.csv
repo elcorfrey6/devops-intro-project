@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+APCS_TEST,IE 11,,2019-01-07 18:17:36,2019-01-07 18:20:08,2m - 32.662s,PASSED
+,,,,,,
+Test Cases/APCS,IE 11,,2019-01-07 18:17:36,2019-01-07 18:19:17,1m - 40.740s,PASSED
+"openBrowser("""")",IE 11,,2019-01-07 18:17:37,2019-01-07 18:17:45,8.719s,PASSED
+"navigateToUrl(""https://apcs.ams1907.com/apcs/registration.do"")",IE 11,,2019-01-07 18:17:45,2019-01-07 18:17:47,1.662s,PASSED
+"setText(findTestObject(""Object Repository/Page_Enterprise Access Management/input_User ID_user""), ""fgl8tbp"")",IE 11,,2019-01-07 18:17:47,2019-01-07 18:17:49,1.929s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Enterprise Access Management/input_Password_password""), ""oAR5EV3bLF6Zw+XSIEVvwg=="")",IE 11,,2019-01-07 18:17:49,2019-01-07 18:17:50,0.906s,PASSED
+"click(findTestObject(""Object Repository/Page_Enterprise Access Management/input_Password_sbtn""))",IE 11,,2019-01-07 18:17:50,2019-01-07 18:17:55,5.025s,PASSED
+"focus(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Register Now""), STOP_ON_FAILURE)",IE 11,,2019-01-07 18:17:55,2019-01-07 18:17:56,0.772s,PASSED
+"click(findTestObject(""Page_APCS ApplicationUPS/a_Register Now""))",IE 11,,2019-01-07 18:17:56,2019-01-07 18:17:57,1.149s,PASSED
+"verifyElementPresent(findTestObject(""Page_APCS ApplicationUPS/input__shopName""), 0)",IE 11,,2019-01-07 18:17:57,2019-01-07 18:18:37,40.174s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__shopName""), ""Eliana Shop"")",IE 11,,2019-01-07 18:18:37,2019-01-07 18:18:38,0.862s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber""), ""21 "")",IE 11,,2019-01-07 18:18:38,2019-01-07 18:18:39,0.881s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__address0.streetName""), ""Henrietta ST"")",IE 11,,2019-01-07 18:18:39,2019-01-07 18:18:40,0.905s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode""), ""07026"")",IE 11,,2019-01-07 18:18:40,2019-01-07 18:18:41,0.865s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__address0.city""), ""Garfield"")",IE 11,,2019-01-07 18:18:41,2019-01-07 18:18:41,0.889s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska""), ""_NJ"", true)",IE 11,,2019-01-07 18:18:41,2019-01-07 18:18:52,10.385s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa""), ""511"", true)",IE 11,,2019-01-07 18:18:52,2019-01-07 18:18:58,5.861s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1""))",IE 11,,2019-01-07 18:18:58,2019-01-07 18:18:59,1.334s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__btnokClose1""))",IE 11,,2019-01-07 18:18:59,2019-01-07 18:19:00,1.111s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1""))",IE 11,,2019-01-07 18:19:00,2019-01-07 18:19:01,1.054s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName""), ""Eliana"")",IE 11,,2019-01-07 18:19:01,2019-01-07 18:19:02,0.923s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName""), ""Cordova"")",IE 11,,2019-01-07 18:19:02,2019-01-07 18:19:03,0.836s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__contact0.phone""), ""2018978898"")",IE 11,,2019-01-07 18:19:03,2019-01-07 18:19:04,0.926s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__contact0.email""), ""ecordova@ups.com"")",IE 11,,2019-01-07 18:19:04,2019-01-07 18:19:05,1.037s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2""))",IE 11,,2019-01-07 18:19:05,2019-01-07 18:19:07,1.650s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton""))",IE 11,,2019-01-07 18:19:07,2019-01-07 18:19:11,4.744s,PASSED
+"focus(findTestObject(""Page_APCS ApplicationUPS/span_Cordova Elvis""))",IE 11,,2019-01-07 18:19:11,2019-01-07 18:19:13,1.216s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis""))",IE 11,,2019-01-07 18:19:13,2019-01-07 18:19:14,1.201s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Log out""))",IE 11,,2019-01-07 18:19:14,2019-01-07 18:19:14,0.259s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Log out""), 1)",IE 11,,2019-01-07 18:19:14,2019-01-07 18:19:14,0.092s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Log out""))",IE 11,,2019-01-07 18:19:14,2019-01-07 18:19:16,2.139s,PASSED
+closeBrowser(),IE 11,,2019-01-07 18:19:16,2019-01-07 18:19:17,0.562s,PASSED
+,,,,,,
+Test Cases/APCS,IE 11,,2019-01-07 18:19:17,2019-01-07 18:20:08,51.284s,PASSED
+"openBrowser("""")",IE 11,,2019-01-07 18:19:17,2019-01-07 18:19:19,2.537s,PASSED
+"navigateToUrl(""https://apcs.ams1907.com/apcs/registration.do"")",IE 11,,2019-01-07 18:19:19,2019-01-07 18:19:20,0.663s,PASSED
+"setText(findTestObject(""Object Repository/Page_Enterprise Access Management/input_User ID_user""), ""fgl8tbp"")",IE 11,,2019-01-07 18:19:20,2019-01-07 18:19:21,0.696s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Enterprise Access Management/input_Password_password""), ""oAR5EV3bLF6Zw+XSIEVvwg=="")",IE 11,,2019-01-07 18:19:21,2019-01-07 18:19:21,0.618s,PASSED
+"click(findTestObject(""Object Repository/Page_Enterprise Access Management/input_Password_sbtn""))",IE 11,,2019-01-07 18:19:21,2019-01-07 18:19:25,3.276s,PASSED
+"focus(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Register Now""), STOP_ON_FAILURE)",IE 11,,2019-01-07 18:19:25,2019-01-07 18:19:25,0.519s,PASSED
+"click(findTestObject(""Page_APCS ApplicationUPS/a_Register Now""))",IE 11,,2019-01-07 18:19:25,2019-01-07 18:19:28,3.017s,PASSED
+"verifyElementPresent(findTestObject(""Page_APCS ApplicationUPS/input__shopName""), 0)",IE 11,,2019-01-07 18:19:28,2019-01-07 18:19:28,0.105s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__shopName""), ""Eliana Shop"")",IE 11,,2019-01-07 18:19:28,2019-01-07 18:19:29,0.881s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__address0.streetNumber""), ""21 "")",IE 11,,2019-01-07 18:19:29,2019-01-07 18:19:30,0.814s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__address0.streetName""), ""Henrietta ST"")",IE 11,,2019-01-07 18:19:30,2019-01-07 18:19:31,0.913s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__address0.postalCode""), ""07026"")",IE 11,,2019-01-07 18:19:31,2019-01-07 18:19:32,0.908s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__address0.city""), ""Garfield"")",IE 11,,2019-01-07 18:19:32,2019-01-07 18:19:33,0.865s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_APCS ApplicationUPS/select_- Select -AlabamaAlaska""), ""_NJ"", true)",IE 11,,2019-01-07 18:19:33,2019-01-07 18:19:44,10.890s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_APCS ApplicationUPS/select_- Select -AlterationsBa""), ""511"", true)",IE 11,,2019-01-07 18:19:44,2019-01-07 18:19:50,6.273s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1""))",IE 11,,2019-01-07 18:19:50,2019-01-07 18:19:51,1.301s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__btnokClose1""))",IE 11,,2019-01-07 18:19:51,2019-01-07 18:19:52,1.061s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__btnNoClose1""))",IE 11,,2019-01-07 18:19:52,2019-01-07 18:19:53,1.194s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__contact0.firstName""), ""Eliana"")",IE 11,,2019-01-07 18:19:53,2019-01-07 18:19:54,0.894s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__contact0.lastName""), ""Cordova"")",IE 11,,2019-01-07 18:19:54,2019-01-07 18:19:55,0.883s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__contact0.phone""), ""2018978898"")",IE 11,,2019-01-07 18:19:55,2019-01-07 18:19:56,0.918s,PASSED
+"setText(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input__contact0.email""), ""ecordova@ups.com"")",IE 11,,2019-01-07 18:19:56,2019-01-07 18:19:57,0.929s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input_Is the shop open 24 hour_2""))",IE 11,,2019-01-07 18:19:57,2019-01-07 18:19:59,1.540s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/input_Cancel_myButton""))",IE 11,,2019-01-07 18:19:59,2019-01-07 18:20:04,4.931s,PASSED
+"focus(findTestObject(""Page_APCS ApplicationUPS/span_Cordova Elvis""))",IE 11,,2019-01-07 18:20:04,2019-01-07 18:20:04,0.865s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/span_Cordova Elvis""))",IE 11,,2019-01-07 18:20:04,2019-01-07 18:20:06,1.132s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Log out""))",IE 11,,2019-01-07 18:20:06,2019-01-07 18:20:06,0.201s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Log out""), 1)",IE 11,,2019-01-07 18:20:06,2019-01-07 18:20:06,0.092s,PASSED
+"click(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Log out""))",IE 11,,2019-01-07 18:20:06,2019-01-07 18:20:08,1.712s,PASSED
+closeBrowser(),IE 11,,2019-01-07 18:20:08,2019-01-07 18:20:08,0.546s,PASSED

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+APCS_TEST,Chrome 71.0.3578.98,,2019-01-07 18:17:44,2019-01-07 18:18:20,35.645s,FAILED
+,,,,,,
+Test Cases/APCS,Chrome 71.0.3578.98,,2019-01-07 18:17:45,2019-01-07 18:18:07,21.589s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-07 18:17:47,2019-01-07 18:17:58,10.536s,PASSED
+"navigateToUrl(""https://apcs.ams1907.com/apcs/registration.do"")",Chrome 71.0.3578.98,,2019-01-07 18:17:58,2019-01-07 18:18:00,2.911s,PASSED
+"setText(findTestObject(""Object Repository/Page_Enterprise Access Management/input_User ID_user""), ""fgl8tbp"")",Chrome 71.0.3578.98,,2019-01-07 18:18:00,2019-01-07 18:18:02,1.311s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Enterprise Access Management/input_Password_password""), ""oAR5EV3bLF6Zw+XSIEVvwg=="")",Chrome 71.0.3578.98,,2019-01-07 18:18:02,2019-01-07 18:18:02,0.371s,PASSED
+"click(findTestObject(""Object Repository/Page_Enterprise Access Management/input_Password_sbtn""))",Chrome 71.0.3578.98,,2019-01-07 18:18:02,2019-01-07 18:18:06,3.845s,PASSED
+"focus(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Register Now""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-07 18:18:06,2019-01-07 18:18:06,0.245s,PASSED
+"click(findTestObject(""Page_APCS ApplicationUPS/a_Register Now""))",Chrome 71.0.3578.98,,2019-01-07 18:18:06,2019-01-07 18:18:07,0.801s,FAILED
+,,,,,,
+Test Cases/APCS,Chrome 71.0.3578.98,,2019-01-07 18:18:07,2019-01-07 18:18:19,11.616s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-07 18:18:07,2019-01-07 18:18:12,4.847s,PASSED
+"navigateToUrl(""https://apcs.ams1907.com/apcs/registration.do"")",Chrome 71.0.3578.98,,2019-01-07 18:18:12,2019-01-07 18:18:14,2.016s,PASSED
+"setText(findTestObject(""Object Repository/Page_Enterprise Access Management/input_User ID_user""), ""fgl8tbp"")",Chrome 71.0.3578.98,,2019-01-07 18:18:14,2019-01-07 18:18:14,0.293s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Enterprise Access Management/input_Password_password""), ""oAR5EV3bLF6Zw+XSIEVvwg=="")",Chrome 71.0.3578.98,,2019-01-07 18:18:14,2019-01-07 18:18:14,0.266s,PASSED
+"click(findTestObject(""Object Repository/Page_Enterprise Access Management/input_Password_sbtn""))",Chrome 71.0.3578.98,,2019-01-07 18:18:14,2019-01-07 18:18:18,3.294s,PASSED
+"focus(findTestObject(""Object Repository/Page_APCS ApplicationUPS/a_Register Now""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-07 18:18:18,2019-01-07 18:18:18,0.282s,PASSED
+"click(findTestObject(""Page_APCS ApplicationUPS/a_Register Now""))",Chrome 71.0.3578.98,,2019-01-07 18:18:18,2019-01-07 18:18:19,0.585s,FAILED
